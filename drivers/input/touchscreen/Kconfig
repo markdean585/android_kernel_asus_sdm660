@@ -1288,4 +1288,8 @@ config TOUCHSCREEN_SYNAPTICS_TCM
 
 source "drivers/input/touchscreen/synaptics_tcm/Kconfig"
 
+if MACH_ASUS_X01BD
+source "drivers/input/touchscreen/NVT_Touch_X01BD/Kconfig"
+endif
+
 endif
