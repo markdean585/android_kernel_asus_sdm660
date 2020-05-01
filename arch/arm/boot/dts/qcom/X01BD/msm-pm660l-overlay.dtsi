@@ -41,6 +41,10 @@
 	qcom,current-ma = <80>;
 };
 
+&pm660l_torch0 {
+	qcom,current-ma = <100>;
+};
+
 &pm660l_torch1 {
 	qcom,max-current = <80>;
 	qcom,current-ma = <80>;

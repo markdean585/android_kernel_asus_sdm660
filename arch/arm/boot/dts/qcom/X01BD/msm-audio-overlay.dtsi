@@ -5,14 +5,11 @@
 	qcom,msm-mi2s-tx-lines = <2>;
 };
 
-&tasha_snd {
-	status = "ok";
-};
-
 &int_codec {
 	/delete-property/ qcom,msm-micbias2-ext-cap;
 	/delete-property/ qcom,audio-routing;
 
+	status = "okay";
 	qcom,msm-micbias1-ext-cap;
 	qcom,msm-hs-micbias-type = "internal";
 	qcom,wsa-disable;

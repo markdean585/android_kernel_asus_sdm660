@@ -28,11 +28,10 @@
 		qcom,pull = <0>;
 		qcom,vin-sel = <0>;
 		qcom,src-sel = <0>;
-		/delete-property/ qcom,out-strength;
 	};
 };
 
-&i2c_6 { /* BLSP1 QUP6 (NFC) */
+&i2c_6 {
 	tfa98xx@34 {
 		compatible = "nxp,tfa98xx";
 		reg = <0x34>;
